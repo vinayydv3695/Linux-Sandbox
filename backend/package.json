@@ -1,0 +1,14 @@
+{
+  "name": "linux-sandbox-backend",
+  "version": "1.0.0",
+  "description": "Backend for a collaborative Linux sandbox.",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.6.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
