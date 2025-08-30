@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  backend:
+    build: .
+    container_name: linux-sandbox-backend
+    environment:
+      - FIREBASE_ADMIN_KEY_PATH=/app/firebase-admin-key.json
+    restart: always
