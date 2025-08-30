@@ -1,0 +1,40 @@
+type User @table {
+  displayName: String!
+  email: String!
+  createdAt: Timestamp!
+  photoUrl: String
+}
+
+type SandboxSession @table {
+  name: String!
+  creator: User!
+  createdAt: Timestamp!
+  status: String!
+  joinCode: String!
+  description: String
+  endedAt: Timestamp
+}
+
+type SessionParticipant @table(key: ["user", "session"]) {
+  user: User!
+  session: SandboxSession!
+  joinedAt: Timestamp!
+  role: String!
+  leftAt: Timestamp
+}
+
+type Command @table {
+  session: SandboxSession!
+  executor: User!
+  commandText: String!
+  executedAt: Timestamp!
+  outputText: String
+  exitCode: Int
+}
+
+type EventLog @table {
+  session: SandboxSession!
+  eventType: String!
+  timestamp: Timestamp!
+  details: String
+}

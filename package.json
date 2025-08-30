@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated",
+    "ace-builds": "^1.43.2",
+    "firebase": "^12.2.1",
+    "react-ace": "^14.0.1"
+  }
+}
