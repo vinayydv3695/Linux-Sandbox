@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@dataconnect/generated": "file:src/dataconnect-generated",
-    "firebase": "^9.17.1",
+    "firebase": "^10.12.2",
     "framer-motion": "^12.23.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
