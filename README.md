@@ -18,7 +18,6 @@
 ## 🌟 Overview
 
 **Linux Sandbox** provides a fully functional, interactive Linux shell directly in your browser.  
-It’s perfect for:
 
 - **💻 Coding and Collaboration:** Write, test, and debug code in a shared environment.
 - **🧪 Safe Experimentation:** Try commands and tools without touching your local setup.
